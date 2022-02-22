@@ -1,4 +1,4 @@
-# NxNQueens
+# 8X8 Queens
 ## Dependencies:
 JavaSE-14
 ## Explanation:
