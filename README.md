@@ -2,18 +2,15 @@
 ## Dependencies:
 JavaSE-14
 ## Explanation:
-</br>
 This program is designed to practice the Constraint Satisfaction techniques 
 especially Discrete Constraint Satisfaction problems. 
 This Assignment requires you to formulate and solve the 8-Queens Problem as a CSP 
 (Constraint Satisfaction Problem). A computer implementation of two algorithms 
 (specified below) is to be developed and a comparison of the performance of the two 
 algorithms is to be carried out.
-</br>
 ## Algorithms:
-</br>
-(a) Forward checking </br>
-(b) Directional Arc consistency Look-ahead </br> 
+(a) Forward checking 
+(b) Directional Arc consistency Look-ahead 
 The program accepts the position of the first queen, the queen in row 1, as 
 input (for example queen 1 in 1A, or in 1B ...), and generates the positions for the 
 remaining queens, if there is a solution to the problem consistent with this 
@@ -22,11 +19,10 @@ value to the queen in each row until a solution is found. For the counting purpo
 there is a backtrack (and the counter is incremented) each time the value currently 
 assigned to the queen in a given row is changed (for example from 2A to 2B, or from 
 2B to 2C, and so on) until all consistent solutions are generated. 
-</br>
 ## Documentation:
 The program is run with the Driver.java file which has the main function in it.
 Enter the input of the position of the first queen in the format "1Column" (1A, 1B,
-1C, 1D, 1E...1H). </br>
+1C, 1D, 1E...1H). 
 The program prints a list of all the possible solutions consistent with the position entered
 and a count of all the backtracks to get to that solution. Run the driver again to get the 
 solutions of some other position.
@@ -34,13 +30,12 @@ solutions of some other position.
 The Directional Arc Consistency Look Ahead Algorithm is paired up with Back Tracking to generate all possible
 solutions consistent with the position entered.
 The DAC.java file runs this algorithm.
-</br>
 ### Forward Checking
 The Forward Checking Algorithm is paired up with Back Tracking to generate all possible
 solutions consistent with the position entered.
 The ForwardChecking.java file runs this algorithm.
-</br>
 ## Example Output
+
 ```
 Please enter the position of a queen: 
 1A
