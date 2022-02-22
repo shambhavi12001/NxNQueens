@@ -9,8 +9,8 @@ This Assignment requires you to formulate and solve the 8-Queens Problem as a CS
 (specified below) is to be developed and a comparison of the performance of the two 
 algorithms is to be carried out.
 ## Algorithms:
-(a) Forward checking 
-(b) Directional Arc consistency Look-ahead 
+(a) Forward checking <br>
+(b) Directional Arc consistency Look-ahead <br>
 The program accepts the position of the first queen, the queen in row 1, as 
 input (for example queen 1 in 1A, or in 1B ...), and generates the positions for the 
 remaining queens, if there is a solution to the problem consistent with this 
