@@ -1,9 +1,6 @@
 # NxNQueens
-</br>
 ## Dependencies:
-</br>
 JavaSE-14
-</br>
 ## Explanation:
 </br>
 This program is designed to practice the Constraint Satisfaction techniques 
@@ -44,7 +41,8 @@ solutions consistent with the position entered.
 The ForwardChecking.java file runs this algorithm.
 </br>
 ## Example Output
-```Please enter the position of a queen: 
+```
+Please enter the position of a queen: 
 1A
 
 Queen 1 in column 1A:
@@ -114,7 +112,7 @@ Total numbers of backtracks before all solutions having a queen in 1A was found 
 Forward Checking: 184
 Directional Look Ahead: 97
 ```
-</br>
+
 ```Please enter the position of a queen: 
 1H
 
