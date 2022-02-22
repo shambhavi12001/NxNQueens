@@ -20,6 +20,7 @@ there is a backtrack (and the counter is incremented) each time the value curren
 assigned to the queen in a given row is changed (for example from 2A to 2B, or from 
 2B to 2C, and so on) until all consistent solutions are generated. 
 ## Documentation:
+### Driver
 The program is run with the Driver.java file which has the main function in it.
 Enter the input of the position of the first queen in the format "1Column" (1A, 1B,
 1C, 1D, 1E...1H). 
@@ -34,6 +35,9 @@ The DAC.java file runs this algorithm.
 The Forward Checking Algorithm is paired up with Back Tracking to generate all possible
 solutions consistent with the position entered.
 The ForwardChecking.java file runs this algorithm.
+### Node
+The Node.java generates any check on the board with a variable, a list of possible values (domain)
+and possibly a column assigned to it.
 ## Example Output
 
 ```
@@ -108,7 +112,8 @@ Forward Checking: 184
 Directional Look Ahead: 97
 ```
 
-```Please enter the position of a queen: 
+```
+Please enter the position of a queen: 
 1H
 
 Queen 1 in column 1H:
